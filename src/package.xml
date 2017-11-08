@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>GoogleForce</members>
+        <members>GoogleSheets</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>Google_SA_Token__c</members>
+        <members>Google_Service_Account__mdt</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>Google_API</members>
+        <members>Google_Sheet_API</members>
+        <name>RemoteSiteSetting</name>
+    </types>
+    <version>36.0</version>
+</Package>

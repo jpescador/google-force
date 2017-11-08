@@ -2,8 +2,14 @@
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
         <members>GoogleForce</members>
+        <members>GoogleMockResponse</members>
         <members>GoogleSheets</members>
+        <members>GoogleSheets_Test</members>
         <name>ApexClass</name>
+    </types>
+    <types>
+        <members>Google_Service_Account.unitTestAcct</members>
+        <name>CustomMetadata</name>
     </types>
     <types>
         <members>Google_SA_Token__c</members>

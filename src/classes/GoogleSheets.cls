@@ -106,6 +106,16 @@ public class GoogleSheets {
         public List<ValueRange> getValueRanges() {
             return valueRanges;
         }
+
+        public BatchGetValuesResponse setSpreadsheetId(String spreadsheetId) {
+            this.spreadsheetId = spreadsheetId;
+            return this;
+        }
+
+        public BatchGetValuesResponse setValueRanges(List<ValueRange> valueRanges) {
+            this.valueRanges = valueRanges;
+            return this;
+        }
     }
 
     public class BatchUpdate {
